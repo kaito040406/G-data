@@ -2,6 +2,9 @@
   <head>
   <head>
   <body>
-    こんにちわ
+      <%= form_tag('/get_data', method: :post) do %> 
+        <input type="text" name="nickname"> 
+        <input type="submit"> 
+      <% end %>
   </body>
 </html>
