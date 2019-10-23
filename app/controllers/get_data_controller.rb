@@ -3,6 +3,7 @@ class GetDataController < ApplicationController
   end
 
   def create
-    bynding.pry
+    
+
   end
 end

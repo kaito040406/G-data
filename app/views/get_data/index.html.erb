@@ -2,9 +2,10 @@
   <head>
   <head>
   <body>
-      <%= form_tag('/get_data', method: :post) do %> 
-        <input type="text" name="nickname"> 
-        <input type="submit"> 
-      <% end %>
+    <%= form_tag('/get_data',class: :button, method: :post) do %> 
+      <input type="text" name="url"> 
+      <input type="submit"> 
+    <% end %>
+    <%= image_tag 'pulas.png' , class: 'pulas' %>
   </body>
 </html>
